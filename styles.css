@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.logo img{
+    margin: 1rem;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a{
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.navbar a:hover{
+    background-color: rgb(36, 36, 112);
+}
+
+.content{  /*esto es una configuracion de los content en general*/
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 100vh !important;
+    background: url(/img/fondo.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title{
+    color: white;
+    margin: 2rem;
+    margin-bottom: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-shadow: 0 0 10px black;
+}
+.header p{
+    margin: 20px;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 10px black;
+}
+
+.btn {
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    color: white;
+    border: 2px solid black;
+    background-color: rgb(36, 36, 112);
+}
+
+.btn:hover{
+    background:none;
+}
+.btn-title{
+    display: flex;
+}
+.btn-title a{
+    margin: 0 10px;
+}
+
+.nosotros{ 
+    background-color: rgb(36, 36, 112);
+    padding: 78px 0;
+}
+
+.nosotros p{
+    margin: 40px;
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+}
