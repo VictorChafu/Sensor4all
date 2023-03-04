@@ -59,7 +59,7 @@ body{
     background-attachment: fixed;
 }
 
-.title{
+.header .title{
     color: white;
     margin: 2rem;
     margin-bottom: 80px;
@@ -72,6 +72,15 @@ body{
     margin: 20px;
     color: white;
     font-size: 16px;
+    text-shadow: 0 0 10px black;
+}
+.nosotros .title{
+    color: white;
+    margin: 2rem;
+    margin-bottom: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
     text-shadow: 0 0 10px black;
 }
 
@@ -96,14 +105,87 @@ body{
 }
 
 .nosotros{ 
-    background-color: rgb(36, 36, 112);
+    height: 100vh;
+    background: linear-gradient( rgb(36, 36, 112), black);
     padding: 78px 0;
 }
 
 .nosotros p{
-    margin: 40px;
+    margin: 30px 5rem 0 5rem;
     font-size: 16px;
-    color: rgb(170, 170, 170);
+    color:aliceblue
 }
+
+  .mision h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    letter-spacing: .1rem;
+  }
+  .right-page p {
+    color:rgb(206, 207, 207);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.4;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+  }
+  .right-page p:first-letter {
+    color: rgb(212, 212, 212);
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 4.4rem;
+    float: left;
+    margin-top: .4rem;
+    margin-right: 1rem;
+    line-height: .7;
+}
+
+.left-page {
+    text-align: center;
+    padding-top: 0rem;
+}
+.left-page img {
+    border-radius: 20px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mision{
+    height: 100vh;
+
+    background: linear-gradient( black, rgb(36, 36, 112));
+  }
+  @media screen and (min-width: 900px) {
+    .mision {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1800px;
+    }
+    .mision section {
+      width: 50%;
+    }
+    .left-page {
+      padding-top: 0rem;
+    }
+    .right-page {
+        width: 50rem;
+      padding-top: 6rem;
+      max-height: 60vh;
+      height: 100vh;
+    }
+  }
+
+  .box-equipo{
+    background-color: rgb(36, 36, 112);
+  }
+
+
+
 
 
